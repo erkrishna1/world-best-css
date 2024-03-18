@@ -1,0 +1,64 @@
+/* Coments in css : not visible part in website */
+
+/* named colors: you can used named color which are predefined color keyboard  */
+.para1{
+    color:red;
+    color:rgb(255, 0, 0);
+}
+
+.para2{
+    color:green;
+    color:rgb(0, 128, 0);
+}
+
+.para3{
+    color:blue;
+    color:rgb(0, 0, 255);
+}
+
+/* 2 RGB colors: (Red,Green,Blue) Values allows you to define color spacifying the amount of red, green, Blue and amount of colors */
+
+.para1{
+    color:red;
+    color:rgb(255, 0, 0);
+}
+
+.para2{
+    color:green;
+    color:rgb(0, 128, 0);
+}
+
+.para3{
+    color:blue;
+    color:rgb(0, 0, 255);
+}
+
+/* RGBA colors: RGBA colors is similer to RGB but include alpha channel for opacity control 
+ alpha range is 0-1  
+ rgba(red,green,blue,alpha) */
+
+
+ h2{
+    color:rgba(red, green, blue, alpha)
+ }
+
+ .rgba1{
+    background-color: rgba(0,0,255,0.5);
+ }
+
+
+ /* Hexa-Decimal colors:You can specify colors using hexadecimal values */
+
+ .Hex1{
+    color:#ff0000
+ }
+
+ .Hex2{
+    color:#9c4e05
+ }
+
+ /* current color property  why this is not working on my pc */ 
+
+ .Hex3{
+    color: currentColor;
+ }

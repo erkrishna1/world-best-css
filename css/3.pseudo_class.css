@@ -1,0 +1,30 @@
+.head1{
+    color:white;
+    background-color:blueviolet
+}
+
+.head1:hover{
+    color:green;
+    background-color: aqua;
+}
+
+#para1{
+    background-color: bisque;
+    color:blue;
+}
+
+#para1:hover{
+    background-color:rgb(208, 219, 198);
+    color:rgb(207, 13, 13);
+}
+
+#btn{
+    background-color:blue;
+    color:white;
+}
+
+#btn:hover{
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
